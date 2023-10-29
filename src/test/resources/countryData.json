@@ -1,0 +1,37 @@
+{
+	"validData": [
+		{
+			"data": {
+				"term": "alan",
+				"country": "AD",
+				"limit": "5"
+			},
+			"statusCode": "200"
+		},
+		{
+			"data": {
+				"term": "alan",
+				"country": "AQ",
+				"limit": "5"
+			},
+			"statusCode": "200"
+		},
+		{
+			"data": {
+				"term": "alan",
+				"country": "IN",
+				"limit": "5"
+			},
+			"statusCode": "200"
+		}
+	],
+	"inValidData": [
+		{
+			"data": {
+				"term": "alan",
+				"limit": "5"
+			},
+			"statusCode": "400"
+		}
+	]
+}

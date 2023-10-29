@@ -1,0 +1,77 @@
+{
+	"validData": [
+		{
+			"data": {
+				"term": "baahubali",
+				"country": "IN",
+				"limit": "5",
+				"lang": "en_us"
+			},
+			"statusCode": "200"
+		},
+		{
+			"data": {
+				"term": "baahubali",
+				"country": "IN",
+				"limit": "5",
+				"lang": "ja_jp"
+			},
+			"statusCode": "200"
+		},
+		{
+			"data": {
+				"term": "baahubali",
+				"country": "IN",
+				"limit": "5"
+			},
+			"statusCode": "200"
+		}
+	],
+	"inValidData": [
+		{
+			"data": {
+				"term": "baahubali",
+				"country": "IN",
+				"limit": "5",
+				"lang": "123"
+			},
+			"statusCode": "400"
+		},
+		{
+			"data": {
+				"term": "baahubali",
+				"country": "IN",
+				"limit": "5",
+				"lang": "#"
+			},
+			"statusCode": "400"
+		},
+		{
+			"data": {
+				"term": "baahubali",
+				"country": "IN",
+				"limit": "5",
+				"lang": "1"
+			},
+			"statusCode": "400"
+		},
+		{
+			"data": {
+				"term": "baahubali",
+				"country": "IN",
+				"limit": "5",
+				"lang": "abc"
+			},
+			"statusCode": "400"
+		},
+		{
+			"data": {
+				"term": "baahubali",
+				"country": "IN",
+				"limit": "5",
+				"lang": "dsgfdsg"
+			},
+			"statusCode": "400"
+		}
+	]
+}

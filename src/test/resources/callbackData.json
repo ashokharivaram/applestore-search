@@ -1,0 +1,24 @@
+{
+	"validData": [
+		{
+			"data": {
+				"term": "baahubali",
+				"country": "IN",
+				"callback": "wsSearchCB",
+				"limit": "5"
+			},
+			"statusCode": "200"
+		}
+	],
+	"inValidData": [
+		{
+			"data": {
+				"term": "baahubali",
+				"country": "IN",
+				"callback": "1#$",
+				"limit": "5"
+			},
+			"statusCode": "400"
+		}
+	]
+}

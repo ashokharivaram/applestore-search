@@ -1,0 +1,45 @@
+{
+	"validData": [
+		{
+			"data": {
+				"term": "baahubali",
+				"country": "IN",
+				"limit": "5",
+				"media": "movie",
+				"entity":"movie"
+			},
+			"statusCode": "200"
+		},
+		{
+			"data": {
+				"term": "baahubali",
+				"country": "IN",
+				"limit": "5",
+				"media": "music",
+				"entity":"musicArtist"
+			},
+			"statusCode": "200"
+		},
+		{
+			"data": {
+				"term": "baahubali",
+				"country": "IN",
+				"limit": "5",
+				"media": "music"
+			},
+			"statusCode": "200"
+		}
+	],
+	"inValidData": [
+		{
+			"data": {
+				"term": "baahubali",
+				"country": "IN",
+				"limit": "5",
+				"media": "music",
+				"entity":"ebook"
+			},
+			"statusCode": "400"
+		}
+	]
+}

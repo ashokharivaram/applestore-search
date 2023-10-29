@@ -1,0 +1,36 @@
+{
+	"validData": [
+		{
+			"data": {
+				"term": "alan walker",
+				"country": "US",
+				"callback": "fh",
+				"limit": "200",
+				"lang": "200",
+				"version": "200",
+				"explicit": "200",
+				"media": "200",
+				"entity": "200",
+				"attribute": "200"
+			},
+			"statusCode": "200"
+		}
+	],
+	"inValidData": [
+		{
+			"data": {
+				"term": "alan walker",
+				"country": "US",
+				"callback": "fh",
+				"limit": "200",
+				"lang": "200",
+				"version": "200",
+				"explicit": "200",
+				"media": "200",
+				"entity": "200",
+				"attribute": "200"
+			},
+			"statusCode": "200"
+		}
+	]
+}

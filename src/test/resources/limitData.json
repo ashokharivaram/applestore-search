@@ -1,0 +1,86 @@
+{
+	"validData": [
+		{
+			"data": {
+				"term": "alan walker",
+				"country": "US",
+				"limit": "1"
+			},
+			"statusCode": "200"
+		},
+		{
+			"data": {
+				"term": "alan walker",
+				"country": "US",
+				"limit": "2"
+			},
+			"statusCode": "200"
+		},
+		{
+			"data": {
+				"term": "alan walker",
+				"country": "US",
+				"limit": "199"
+			},
+			"statusCode": "200"
+		},
+		{
+			"data": {
+				"term": "alan walker",
+				"country": "US",
+				"limit": "200"
+			},
+			"statusCode": "200"
+		}
+	],
+	"inValidData": [
+		{
+			"data": {
+				"term": "alan walker",
+				"country": "US",
+				"limit": "0"
+			},
+			"statusCode": "400"
+		},
+		{
+			"data": {
+				"term": "alan walker",
+				"country": "US",
+				"limit": "-1"
+			},
+			"statusCode": "400"
+		},
+		{
+			"data": {
+				"term": "alan walker",
+				"country": "US",
+				"limit": "201"
+			},
+			"statusCode": "200"
+		},
+		{
+			"data": {
+				"term": "alan walker",
+				"country": "US",
+				"limit": "5.5.5"
+			},
+			"statusCode": "200"
+		},
+		{
+			"data": {
+				"term": "alan walker",
+				"country": "US",
+				"limit": "a"
+			},
+			"statusCode": "200"
+		},
+		{
+			"data": {
+				"term": "alan walker",
+				"country": "US",
+				"limit": "#"
+			},
+			"statusCode": "200"
+		}
+	]
+}

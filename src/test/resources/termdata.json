@@ -1,0 +1,37 @@
+{
+	"validData": [
+		{
+			"data": {
+				"term": "alan+walker",
+				"country": "US",
+				"limit": "5"
+			},
+			"statusCode": "200"
+		},
+		{
+			"data": {
+				"term": "2pac",
+				"country": "US",
+				"limit": "5"
+			},
+			"statusCode": "200"
+		},
+		{
+			"data": {
+				"term": "b",
+				"country": "IN",
+				"limit": "5"
+			},
+			"statusCode": "200"
+		}
+	],
+	"inValidData": [
+		{
+			"data": {
+				"country": "US",
+				"limit": "5"
+			},
+			"statusCode": "400"
+		}
+	]
+}

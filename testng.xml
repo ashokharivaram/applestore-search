@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="4" parallel="classes" name="iTunes Search Tests with query params">
+		<classes>
+			<class name="tests.QueryParamCallbackTests" />
+			<class name="tests.QueryParamLimitTests" />
+			<class name="tests.QueryParamExplicitTests" />
+			<class name="tests.QueryParamEntityTests" />
+			<class name="tests.QueryParamAttributeTests" />
+			<class name="tests.QueryParamVersionTests" />
+			<class name="tests.QueryParamMediaTests" />
+			<class name="tests.QueryParamLangTests" />
+			<class name="tests.QueryParamTermTests" />
+			<class name="tests.QueryParamCountryTests" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

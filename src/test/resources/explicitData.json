@@ -1,0 +1,51 @@
+{
+	"validData": [
+		{
+			"data": {
+				"term": "alan",
+				"country": "US",
+				"limit": "5",
+				"explicit": "Yes"
+			},
+			"statusCode": "200"
+		},
+		{
+			"data": {
+				"term": "alan",
+				"country": "US",
+				"limit": "200",
+				"explicit": "No"
+			},
+			"statusCode": "200"
+		}
+	],
+	"inValidData": [
+		{
+			"data": {
+				"term": "alan",
+				"country": "US",
+				"limit": "5",
+				"explicit": "abc"
+			},
+			"statusCode": "200"
+		},
+		{
+			"data": {
+				"term": "alan",
+				"country": "US",
+				"limit": "5",
+				"explicit": "1"
+			},
+			"statusCode": "200"
+		},
+		{
+			"data": {
+				"term": "alan",
+				"country": "US",
+				"limit": "5",
+				"explicit": "."
+			},
+			"statusCode": "200"
+		}
+	]
+}
